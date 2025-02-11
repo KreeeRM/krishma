@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UPEX MOVE</title>
+    <!-- Bootstrap CSS link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Icons link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <section class="header-section bg-light py-3">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Welcome Text -->
+          <div
+            class="col-lg-8 col-md-7 col-sm-12 text-center text-md-start header"
+          >
+            <p class="mb-0">
+              Welcome To
+              <span style="color: rgb(6, 121, 121)">UPEX MOVE:</span>
+              15+ Years Experience &nbsp;&nbsp; | &nbsp;&nbsp;
+              <a href="#how-to-find-us" class="text-decoration-none"
+                >How To Find Us</a
+              >
+              &nbsp;&nbsp; | &nbsp;&nbsp;
+              <a href="#feedback" class="text-decoration-none">Give Feedback</a>
+            </p>
+          </div>
+
+          <!-- Social Media Icons -->
+          <div
+            class="col-lg-4 col-md-5 col-sm-12 text-center text-md-end mt-2 mt-md-0"
+          >
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a href="#" class="text-dark">
+                  <i class="bi bi-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-dark">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-dark">
+                  <i class="bi bi-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="assets/logo.png" alt="UPEX MOVE Logo" width="180" />
+        </a>
+
+        <!-- Toggle Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fw-bold" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fw-bold" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fw-bold" href="#"
+                >Our Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fw-bold" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fw-bold" href="#"
+                >Testimonials</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fw-bold" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <button
+            type="button"
+            class="btn btn-teal text-white text-uppercase btn-lg w-sm-auto"
+            style="border-radius: 0px; font-size: 20px"
+          >
+            Get A Quote
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <section class="banner d-flex flex-column text-white">
+      <!-- Contact Information -->
+      <div
+        class="banner-contact d-flex flex-column flex-sm-row justify-content-between align-items-center py-3 text-center text-sm-start"
+        style="background: rgba(0, 0, 0, 0.6)"
+      >
+        <div class="contact-item mb-3 mb-sm-0">
+          <i class="bi bi-telephone-fill"></i><br />
+          <span>0433 546 954</span>
+        </div>
+        <div class="contact-item mb-3 mb-sm-0">
+          <i class="bi bi-envelope-fill"></i><br />
+          <span>upexmove@gmail.com</span>
+        </div>
+        <div class="contact-item">
+          <i class="bi bi-geo-alt-fill"></i><br />
+          <span>Benowa QLD 4217</span>
+        </div>
+      </div>
+
+      <!-- Banner Content -->
+      <div class="banner-content text-center py-5">
+        <h1 class="display-4 fw-bold">
+          Moving homes or offices?<br />We handle it all with ease.
+        </h1>
+        <p class="lead">
+          We offer a range of services including packing, moving, unpacking, and
+          storage solutions to meet your specific needs.
+        </p>
+        <div class="banner-buttons">
+          <button class="btn btn-teal px-4 py-2">Book Now</button>
+          <button class="btn btn-outline-light px-4 py-2 ms-2">
+            Discover More
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Features -->
+    <div class="container mt-5 mb-4">
+      <h2 class="text-center text-teal">OUR FEATURES</h2>
+      <div class="row text-center mt-4">
+        <div class="col-6 col-md-2 mb-3">
+          <i class="bi bi-box-seam feature-icon"></i>
+          <p><a href="#" class="feature-link">ALL ITEMS COVERED</a></p>
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <i class="bi bi-suitcase-lg feature-icon"></i>
+          <p><a href="#" class="feature-link">CARRY WITH CARE</a></p>
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <i class="bi bi-box2 feature-icon"></i>
+          <p><a href="#" class="feature-link">PRE PACKING</a></p>
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <i class="bi bi-list-check feature-icon"></i>
+          <p><a href="#" class="feature-link">FULL INSURED</a></p>
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <i class="bi bi-building feature-icon"></i>
+          <p><a href="#" class="feature-link">COMMERCIAL</a></p>
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <i class="bi bi-house-door feature-icon"></i>
+          <p><a href="#" class="feature-link">RESIDENTIAL</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- About UPEX -->
+    <section class="banner-1">
+      <div class="container mt-4 p-5">
+        <div class="row align-items-center">
+          <!-- About Content -->
+          <div class="col-lg-5 col-md-12 about-content mb-4">
+            <h5 style="color: rgb(6, 121, 121)">ABOUT UPEX</h5>
+            <h1 style="font-weight: bold">
+              MOVING & STORAGE <br />
+              SERVICE
+            </h1>
+            <p style="font-weight: 500">
+              Reliable solutions for smooth transitions. We provide packing &
+              unpacking, commercial and residential relocation. Our experienced
+              team can help you.
+            </p>
+            <p>
+              Our movers are trained to handle your belongings with the utmost
+              care, ensuring they arrive at your new location in perfect
+              condition. We believe in providing transparent pricing and
+              outstanding service, making us the preferred choice for many
+              homeowners and businesses.
+            </p>
+            <p class="fw-semibold fs-5">
+              <i class="bi bi-clock"></i> On time
+              <i class="bi bi-calculator" style="margin-left: 2rem"></i> Free
+              estimates
+            </p>
+            <p class="fw-semibold fs-5">
+              <i class="bi bi-house"></i> For All Your Home
+              <i class="bi bi-check2-all" style="margin-left: 2rem"></i>
+              Guarantee
+            </p>
+            <div class="d-flex align-items-center flex-wrap">
+              <button type="button" class="btn read-more btn-lg mb-3 me-3">
+                Read More
+              </button>
+              <div class="msg">
+                <h1 class="mt-3" style="color: rgb(6, 121, 121)">15+</h1>
+                <p class="fw-semibold">Years of Moving Service</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- About Image -->
+          <div class="col-lg-7 col-md-12 about-image">
+            <img
+              src="assets/packaging.png"
+              alt="packaging"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Services -->
+    <section class="our-services mt-5">
+      <div class="container">
+        <h5 style="color: rgb(6, 121, 121); text-align: center">
+          OUR SERVICES
+        </h5>
+        <h1 style="font-weight: bold; text-align: center">
+          MOVING SERVICES FOR <br />EVERY NEED
+        </h1>
+        <div class="row mt-5">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <i class="bi bi-tv service-icon"></i>
+                <h5 class="card-title">FURNITURE REMOVING</h5>
+                <p class="card-text">
+                  We specialize in providing efficient and reliable furniture
+                  removal services for both residential and commercial clients.
+                </p>
+                <button class="btn view-more-btn">View More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <i class="bi bi-truck service-icon"></i>
+                <h5 class="card-title">LOADING AND UNLOADING</h5>
+                <p class="card-text">
+                  We specialize in providing efficient and reliable furniture
+                  removal services for both residential and commercial clients.
+                </p>
+                <button class="btn view-more-btn">View More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <i class="bi bi-house-gear-fill service-icon"></i>
+                <h5 class="card-title">STORAGE SERVICE</h5>
+                <p class="card-text">
+                  We specialize in providing efficient and reliable furniture
+                  removal services for both residential and commercial clients.
+                </p>
+                <button class="btn view-more-btn">View More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="view-all-service text-center">
+          <button class="btn view-more-btn m-5 btn-lg">
+            VIEW ALL SERVICES
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Get In Touch -->
+    <section class="form-banner">
+      <div class="container">
+        <div class="row">
+          <!-- Form Section -->
+          <div class="col-lg-6 col-md-8 col-12 get-in-touch">
+            <h2 class="w-100">GET IN TOUCH</h2>
+            <form action="" class="form">
+              <!-- Full Name -->
+              <div class="mb-3">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Full Name"
+                />
+              </div>
+
+              <!-- Email -->
+              <div class="mb-3">
+                <input class="form-control" type="email" placeholder="Email" />
+              </div>
+
+              <!-- Phone -->
+              <div class="mb-3">
+                <input class="form-control" type="number" placeholder="Phone" />
+              </div>
+
+              <!-- Moving From & Moving To -->
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <input
+                    class="form-control"
+                    type="text"
+                    placeholder="Moving From"
+                  />
+                </div>
+                <div class="col-md-6 mb-3">
+                  <input
+                    class="form-control"
+                    type="text"
+                    placeholder="Moving To"
+                  />
+                </div>
+              </div>
+
+              <!-- Moving Size & Moving Date -->
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <input
+                    class="form-control"
+                    type="text"
+                    placeholder="Moving Size"
+                  />
+                </div>
+                <div class="col-md-6 mb-3">
+                  <input
+                    class="form-control"
+                    type="text"
+                    placeholder="Moving Date"
+                  />
+                </div>
+              </div>
+
+              <!-- Submit Button -->
+              <div class="text-center mt-4">
+                <button class="btn submit-btn btn-lg px-5">SUBMIT NOW</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials mt-5 p-5">
+      <div class="container">
+        <h5 style="color: rgb(6, 121, 121); text-align: center">
+          TESTIMONIALS
+        </h5>
+        <h1 style="font-weight: bold; text-align: center">
+          WHAT OUR CUSTOMER <br />SAYING ABOUT US
+        </h1>
+        <div class="row mt-5 g-3">
+          <div class="col-md-4">
+            <div
+              class="card"
+              style="background-color: rgb(6, 121, 121); color: white"
+            >
+              <div class="card-body">
+                <p class="card-text">
+                  In total I've used them 4 times now. This guys are efficient
+                  and friendly.Highly recommended!
+                </p>
+                <h5 style="color: white">Allen S</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="background-color: #000; color: white">
+              <div class="card-body">
+                <p class="card-text">
+                  Parras and the apex team are fantastic! great service att a
+                  great affordable price! Give me more!!
+                </p>
+                <h5 style="color: white">Charlie Capel</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="card"
+              style="background-color: rgb(6, 121, 121); color: white"
+            >
+              <div class="card-body">
+                <p class="card-text">
+                  Parras and his team are great, always easy to deal with and
+                  flexible which is perfect when working as crew for events.
+                </p>
+                <h5 style="color: white">Benjamin Teboul</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="view-all-service text-center">
+          <button class="btn view-more-btn m-5 btn-lg">VIEW ALL</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Projects -->
+    <section class="our-projects mt-5">
+      <div class="container d-flex">
+        <div class="row">
+          <div class="col-md-6 view-all-projects p-5">
+            <h5>Our Projects</h5>
+            <h1>EXPLORE OUR <br />INCREDIBLE WORKS</h1>
+            <button class="btn view-projects-btn mt-4">
+              VIEW ALL PROJECTS
+            </button>
+          </div>
+          <div class="col-md-3">
+            <img src="assets/img1.jpg" alt="image-1" />
+          </div>
+          <div class="col-md-3">
+            <img src="assets/img2.jpg" alt="image-2" />
+          </div>
+          <div class="col-md-4">
+            <img src="assets/img1.jpg" alt="image-3" />
+          </div>
+          <div class="col-md-4">
+            <img src="assets/img2.jpg" alt="image-2" />
+          </div>
+          <div class="col-md-4">
+            <img src="assets/img3.jpg" alt="image-2" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section class="contact-us py-2">
+      <div class="container mt-5">
+        <!-- Use Bootstrap's grid system for responsiveness -->
+        <div class="row align-items-center">
+          <!-- Contact Text -->
+          <div class="col-lg-8 col-md-8 col-12 mb-3">
+            <h3>Have Questions About Moving?</h3>
+            <p>
+              Whether You're Planning A Residential Move Or A Commercial
+              Relocation, <br />Our Team Is Ready To Provide You With Top-Notch
+              Service.
+            </p>
+          </div>
+          <!-- Contact Button -->
+          <div
+            class="col-lg-4 col-md-4 col-12 text-lg-end text-md-end text-center"
+          >
+            <button class="btn btn-dark btn-lg">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container d-flex justify-content-between mt-5">
+        <div class="row">
+          <div class="about-us col-md-3 col-sm-6">
+            <h5>ABOUT US</h5>
+            <p>
+              From packing and unpacking to <br />furniture disassembly and
+              <br />
+              transportation, we handle every <br />
+              detail with care.
+            </p>
+          </div>
+          <div class="quick-links col-md-2 col-sm-6">
+            <h5>QUICK LINKS</h5>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Services</a></li>
+              <li><a href="#">Our Projects</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="get-in-touch col-md-3 col-sm-6">
+            <h5>GET IN TOUCH</h5>
+            <ul>
+              <li>
+                <i class="bi bi-telephone-fill"></i>&nbsp;<span
+                  >0433 546 954</span
+                >
+              </li>
+              <li>
+                <i class="bi bi-envelope-fill"></i>&nbsp;<span
+                  >upexmove@gmail.com</span
+                >
+              </li>
+              <li>
+                <i class="bi bi-geo-alt-fill"></i>&nbsp;<span
+                  >Benowa QLD 4217</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="location-map col-md-4 col-sm-6">
+            <h5>LOCATION MAP</h5>
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d14130.387211468187!2d85.30491725530963!3d27.698854018995497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d27.6967568!2d85.3093751!4m5!1s0x39eb19688077a1ff%3A0x3ea9b1c08b4234dc!2smindrisers%20location!3m2!1d27.7012628!2d85.321213!5e0!3m2!1sen!2snp!4v1737197622942!5m2!1sen!2snp"
+                width="100%"
+                height="250"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container copyright">
+        <hr />
+        <div class="copyright-text d-flex justify-content-between">
+          <div class="msg">
+            <p>
+              Copyright &copy; 2022
+              <span style="color: rgb(6, 121, 121)">UPEX MOVE</span>. All rights
+              reserved.
+            </p>
+          </div>
+          <div class="designed-by">
+            <p>
+              Designed By <span style="color: rgb(6, 121, 121)">UPEX MOVE</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
