@@ -35,9 +35,11 @@
 //     let data1 = response.json();
 //     console.log("this is data1", data1);
 //   } catch (error) {
-//     console.error("error fetching data", error);
-//   }
-};
-fetchData();
+// //     console.error("error fetching data", error);
+// //   }
+// };
+// fetchData();
 
 // assignment  git install, git hub account,
+
+// hello world
