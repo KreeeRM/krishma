@@ -29,14 +29,14 @@
 // fetchData();
 
 // with try catch
-const fetchData = async () => {
-  try {
-    let response = await fetch("https://jsonplaceholder.typicode.com/posts/2");
-    let data1 = response.json();
-    console.log("this is data1", data1);
-  } catch (error) {
-    console.error("error fetching data", error);
-  }
+// const fetchData = async () => {
+//   try {
+//     let response = await fetch("https://jsonplaceholder.typicode.com/posts/2");
+//     let data1 = response.json();
+//     console.log("this is data1", data1);
+//   } catch (error) {
+//     console.error("error fetching data", error);
+//   }
 };
 fetchData();
 
