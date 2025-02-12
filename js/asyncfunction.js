@@ -42,4 +42,4 @@
 
 // assignment  git install, git hub account,
 
-// hello world
+// This is  the example of git merge 
