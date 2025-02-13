@@ -87,8 +87,8 @@
 // function sum(a, b) {
 //   return a - b;
 // }
-// console.log("this is sum", sum(5, 10));
- let a = (1,2,3,4,5,6);
- function find even numbers (a); 
-console.log("even numbers:" evenNumbers );
+// // console.log("this is sum", sum(5, 10));
+//  let a = (1,2,3,4,5,6);
+//  function find even numbers (a); 
+// console.log("even numbers:" evenNumbers );
 
