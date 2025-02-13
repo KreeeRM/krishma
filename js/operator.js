@@ -92,3 +92,6 @@
 //  function find even numbers (a); 
 // console.log("even numbers:" evenNumbers );
 
+// bsajsjdapjdipshcisjdcm;lsdmclko[jcpishcincsnckn
+//     kskksk
+]
