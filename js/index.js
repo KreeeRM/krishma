@@ -7,5 +7,6 @@
 //   console.log("now you are not friend with xyz");
 // }
 // alert("virus detected");
-const number = prompt("enter your number");
-console.log("even number is", even number );
+// const number = prompt("enter your number");
+// console.log("even number is", even number );
+// hello hiii hai
