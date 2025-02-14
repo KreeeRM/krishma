@@ -10,3 +10,5 @@
 // const number = prompt("enter your number");
 // console.log("even number is", even number );
 // hello hiii hai
+
+///we r creating pr req with res tp master branch
