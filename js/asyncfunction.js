@@ -44,3 +44,5 @@
 
 // This is  the example of git merge 
 //hello git
+
+// for second merge commit babbsbjsjjjabjkb
